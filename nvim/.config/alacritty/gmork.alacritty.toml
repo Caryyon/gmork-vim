@@ -1,0 +1,100 @@
+# Gmork Theme for Alacritty
+# Inspired by the black wolf from The NeverEnding Story
+# A dark, atmospheric theme with luminous green eyes in blue-black darkness
+#
+# Palette Philosophy:
+# - Backgrounds: Blue-black tones (Gmork's fur)
+# - Primary accent: Luminous green (Gmork's glowing eyes)
+# - Secondary accent: Storm purple (The Nothing)
+# - Danger: Blood crimson (not neon)
+# - Text: Bone/fang white (slightly warm)
+
+[colors]
+
+[colors.primary]
+background = "#0a0a12"      # void - deep blue-black (Gmork's fur)
+foreground = "#f4f4f5"      # fang white - slightly warm
+dim_foreground = "#a1a1aa"  # mist gray
+
+[colors.cursor]
+text = "#0a0a12"            # void
+cursor = "#4ade80"          # luminous green (Gmork's eyes)
+
+[colors.vi_mode_cursor]
+text = "#0a0a12"            # void
+cursor = "#dc2626"          # blood crimson
+
+[colors.selection]
+text = "#f4f4f5"            # fang white
+background = "#2a2a36"      # cave stone
+
+[colors.hints]
+start = { foreground = "#0a0a12", background = "#4ade80" }  # void on luminous green
+end = { foreground = "#0a0a12", background = "#d4d4d8" }    # void on bone
+
+[colors.line_indicator]
+foreground = "None"
+background = "None"
+
+[colors.footer_bar]
+foreground = "#f4f4f5"      # fang white
+background = "#12121a"      # shadow
+
+[colors.search]
+matches = { foreground = "#0a0a12", background = "#7c3aed" }      # void on lightning purple
+focused_match = { foreground = "#0a0a12", background = "#4ade80" } # void on luminous green
+
+[colors.normal]
+black = "#12121a"           # shadow (blue-black)
+red = "#dc2626"             # blood crimson
+green = "#3edd78"           # luminous green (Gmork's eyes)
+yellow = "#ea580c"          # ember orange
+blue = "#7c3aed"            # lightning purple (The Nothing)
+magenta = "#4c1d95"         # void purple (The Nothing)
+cyan = "#22d3ee"            # pale cyan
+white = "#f4f4f5"           # fang white
+
+[colors.bright]
+black = "#2a2a36"           # cave stone
+red = "#ef4444"             # bright blood
+green = "#4ade80"           # eye shine
+yellow = "#f97316"          # bright ember
+blue = "#a78bfa"            # bright purple
+magenta = "#7c3aed"         # lightning purple
+cyan = "#67e8f9"            # lightning flash
+white = "#fafafa"           # bright fang
+
+[colors.dim]
+black = "#1c1c26"           # cave darkness
+red = "#991b1b"             # wound red
+green = "#166534"           # dim glow
+yellow = "#78350f"          # root brown
+blue = "#2d1b4e"            # storm purple
+magenta = "#3b0764"         # deep void
+cyan = "#155e75"            # deep water
+white = "#71717a"           # mist
+
+# Indexed Colors for extended palette
+[[colors.indexed_colors]]
+index = 16
+color = "#1c1c26"           # cave darkness
+
+[[colors.indexed_colors]]
+index = 17
+color = "#2a2a36"           # cave stone
+
+[[colors.indexed_colors]]
+index = 18
+color = "#3f3f4a"           # lighter stone
+
+[[colors.indexed_colors]]
+index = 19
+color = "#2d1b4e"           # storm purple
+
+[[colors.indexed_colors]]
+index = 20
+color = "#166534"           # dim green glow
+
+[[colors.indexed_colors]]
+index = 21
+color = "#78350f"           # root brown
